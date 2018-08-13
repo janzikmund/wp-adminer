@@ -7,8 +7,8 @@ Author URI: https://janzikmund.cz
 Version: 1.0
 */
 
-if ( ! defined( 'WPINC' ) ) {
-	die;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
 
 class WPAdminer
