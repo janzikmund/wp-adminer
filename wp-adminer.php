@@ -2,9 +2,9 @@
 /*
 Plugin Name: WP Adminer
 Description: Embeds <a href="https://www.adminer.org/" target="_blank">Adminer</a> database manager and uses wp-config data to access database. <strong>WARNING: Having Adminer accessible on the site is high security risk, even if this plugin is DISABLED. Install this plugin just for the short time necessary and always delete it after use. Never keep it on the site if not used.</strong>
-Author: Jan Zikmund
+Author: Jan Zikmund, <a href="https://ham3da.ir/">Javad Ahshamian</a>
 Author URI: https://janzikmund.cz
-Version: 1.0
+Version: 1.1
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -47,7 +47,7 @@ class WPAdminer
 		$base = plugin_basename(__FILE__);
 		if ($file == $base) {
 			$new_links = [
-				'Adminer Version: 4.6.3',
+				'Adminer Version: 4.7.7',
 			];
 			array_splice($links, 1, 0, $new_links );
 		}
