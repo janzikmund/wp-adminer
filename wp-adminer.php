@@ -47,7 +47,7 @@ class WPAdminer
 		$base = plugin_basename(__FILE__);
 		if ($file == $base) {
 			$new_links = [
-				'Adminer Version: 4.6.3',
+				'Adminer Version: 4.7.7',
 			];
 			array_splice($links, 1, 0, $new_links );
 		}
